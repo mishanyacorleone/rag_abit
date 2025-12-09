@@ -1,0 +1,1112 @@
+2025-09-29 14:56:20,907 - INFO - Use pytorch device_name: cpu
+2025-09-29 14:56:20,908 - INFO - Load pretrained SentenceTransformer: ../../models/deepvk/USER-bge-m3
+2025-09-29 14:58:33,722 - INFO - Use pytorch device_name: cpu
+2025-09-29 14:58:33,723 - INFO - Load pretrained SentenceTransformer: D:\PycharmProjects\abitBot\app\models\deepvk\USER-bge-m3
+2025-09-29 15:02:03,672 - INFO - Use pytorch device_name: cpu
+2025-09-29 15:02:03,672 - INFO - Load pretrained SentenceTransformer: D:\PycharmProjects\abitBot\app\models\deepvk\USER-bge-m3
+2025-09-29 15:02:04,883 - INFO - Use pytorch device_name: cpu
+2025-09-29 15:02:04,884 - INFO - Load pretrained SentenceTransformer: D:\PycharmProjects\abitBot\app\models\deepvk\USER-bge-m3
+2025-09-29 15:02:35,831 - INFO - Время, затраченное на первичный поиск: 0.3206050395965576
+2025-09-29 15:03:50,105 - INFO - Use pytorch device_name: cpu
+2025-09-29 15:03:50,105 - INFO - Load pretrained SentenceTransformer: D:\PycharmProjects\abitBot\app\models\deepvk\USER-bge-m3
+2025-09-29 15:03:51,428 - INFO - Use pytorch device_name: cpu
+2025-09-29 15:03:51,428 - INFO - Load pretrained SentenceTransformer: D:\PycharmProjects\abitBot\app\models\deepvk\USER-bge-m3
+2025-09-29 15:04:07,589 - INFO - Время, затраченное на первичный поиск: 0.2982139587402344
+2025-09-29 15:30:18,797 - INFO - Use pytorch device_name: cpu
+2025-09-29 15:30:18,798 - INFO - Load pretrained SentenceTransformer: D:\PycharmProjects\abitBot\app\models\deepvk\USER-bge-m3
+2025-09-29 15:30:20,091 - INFO - Use pytorch device_name: cpu
+2025-09-29 15:30:20,091 - INFO - Load pretrained SentenceTransformer: D:\PycharmProjects\abitBot\app\models\deepvk\USER-bge-m3
+2025-09-29 15:30:59,081 - INFO - Время, затраченное на первичный поиск: 0.3413529396057129
+2025-09-29 15:31:37,498 - INFO - Время, затраченное на реранк: 38.41713905334473
+2025-09-29 15:31:40,334 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-29 15:53:11,336 - INFO - Время, затраченное на первичный поиск: 0.2511897087097168
+2025-09-29 15:53:37,386 - INFO - Время, затраченное на реранк: 26.05006194114685
+2025-09-29 15:53:39,312 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-29 15:55:01,871 - INFO - Время, затраченное на первичный поиск: 0.2094407081604004
+2025-09-29 15:55:25,260 - INFO - Время, затраченное на реранк: 23.388684272766113
+2025-09-29 15:55:27,581 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-29 15:55:36,751 - INFO - Время, затраченное на первичный поиск: 0.256314754486084
+2025-09-29 15:56:01,993 - INFO - Время, затраченное на реранк: 25.242572784423828
+2025-09-29 15:56:04,072 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-29 15:57:44,571 - INFO - Время, затраченное на первичный поиск: 0.3438534736633301
+2025-09-29 15:57:49,248 - INFO - Время, затраченное на реранк: 4.675511598587036
+2025-09-29 15:57:51,166 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-29 16:16:22,965 - INFO - Время, затраченное на первичный поиск: 0.3106963634490967
+2025-09-29 16:17:07,704 - INFO - Время, затраченное на реранк: 44.73732566833496
+2025-09-29 16:17:09,892 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-29 16:18:03,024 - INFO - Use pytorch device_name: cpu
+2025-09-29 16:18:03,024 - INFO - Load pretrained SentenceTransformer: D:\PycharmProjects\abitBot\app\models\deepvk\USER-bge-m3
+2025-09-29 16:18:04,414 - INFO - Use pytorch device_name: cpu
+2025-09-29 16:18:04,414 - INFO - Load pretrained SentenceTransformer: D:\PycharmProjects\abitBot\app\models\deepvk\USER-bge-m3
+2025-09-29 16:18:33,051 - INFO - Время, затраченное на первичный поиск: 0.4191255569458008
+2025-09-29 16:18:35,894 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-29 16:19:04,170 - INFO - Время, затраченное на первичный поиск: 0.25533485412597656
+2025-09-29 16:19:06,160 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-29 16:19:51,400 - INFO - Use pytorch device_name: cpu
+2025-09-29 16:19:51,401 - INFO - Load pretrained SentenceTransformer: D:\PycharmProjects\abitBot\app\models\deepvk\USER-bge-m3
+2025-09-29 16:19:52,741 - INFO - Use pytorch device_name: cpu
+2025-09-29 16:19:52,742 - INFO - Load pretrained SentenceTransformer: D:\PycharmProjects\abitBot\app\models\deepvk\USER-bge-m3
+2025-09-29 16:20:19,458 - INFO - Время, затраченное на первичный поиск: 0.33510684967041016
+2025-09-29 16:20:22,072 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 09:56:52,651 - INFO - Use pytorch device_name: cpu
+2025-10-03 09:56:52,674 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 09:57:04,519 - INFO - Use pytorch device_name: cpu
+2025-10-03 09:57:04,519 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 09:57:59,240 - INFO - Use pytorch device_name: cpu
+2025-10-03 09:57:59,240 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 10:01:00,537 - INFO - Use pytorch device_name: cpu
+2025-10-03 10:01:00,537 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 10:01:01,462 - INFO - Use pytorch device_name: cpu
+2025-10-03 10:01:01,462 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 10:01:54,473 - INFO - Время, затраченное на первичный поиск: 0.2640080451965332
+2025-10-03 10:08:05,809 - INFO - Use pytorch device_name: cpu
+2025-10-03 10:08:05,810 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 10:08:06,701 - INFO - Use pytorch device_name: cpu
+2025-10-03 10:08:06,701 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 10:08:19,176 - INFO - Время, затраченное на первичный поиск: 0.26100635528564453
+2025-10-03 10:08:20,995 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 10:18:37,802 - INFO - Use pytorch device_name: cpu
+2025-10-03 10:18:37,802 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 10:18:38,725 - INFO - Use pytorch device_name: cpu
+2025-10-03 10:18:38,725 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 10:19:00,274 - INFO - Время, затраченное на первичный поиск: 0.30800628662109375
+2025-10-03 10:19:00,274 - INFO - [{'score': 0.6996204853057861, 'corpus_id': 551, 'candidate': 'Проходной балл на направление 01.03.02    Прикладная математика и информатика (большие и открытые данные) (бак-т) в 2024 год - 154'}, {'score': 0.688403844833374, 'corpus_id': 559, 'candidate': 'Проходной балл на направление 09.03.03 Прикладная информатика (разработка компьютерных игр и    AR/VR-приложений (виртуальной/дополненной реальности)) (бак-т) в 2024 год - 194'}, {'score': 0.6629092693328857, 'corpus_id': 557, 'candidate': 'Проходной балл на направление 09.03.01 Информатика и вычислительная техника (программное    обеспечение средств вычислительной техники и автоматизированных систем)    (бак-т) в 2024 год - 211'}, {'score': 0.6590100526809692, 'corpus_id': 560, 'candidate': 'Проходной балл на направление 09.03.03 Прикладная информатика (управление проектами разработки    бизнес-приложений для цифровой экономики) (бак-т) в 2024 год - 177'}, {'score': 0.6563432216644287, 'corpus_id': 507, 'candidate': 'Проходной балл на направление 09.03.03 Прикладная информатика (разработка компьютерных игр и AV/VR-приложений (виртуальной/дополненной реальности)) (бак-т) в 2023 год - 212'}]
+2025-10-03 10:19:02,871 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 10:23:33,792 - INFO - Use pytorch device_name: cpu
+2025-10-03 10:23:33,792 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 10:23:34,654 - INFO - Use pytorch device_name: cpu
+2025-10-03 10:23:34,654 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 10:26:04,118 - INFO - Use pytorch device_name: cpu
+2025-10-03 10:26:04,118 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 10:26:04,981 - INFO - Use pytorch device_name: cpu
+2025-10-03 10:26:04,981 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 10:26:15,430 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 10:27:26,579 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 10:28:23,039 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 11:55:01,492 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 11:57:42,958 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 11:58:28,589 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 11:58:41,641 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 11:59:17,158 - INFO - Время, затраченное на первичный поиск: 0.6360158920288086
+2025-10-03 11:59:17,158 - INFO - [{'score': 0.6452037692070007, 'corpus_id': 616, 'candidate': 'Бакалавриат и специалитет. Платные места. Окончание подачи документов с вступительными испытаниями МГТУ - 20.08.2025'}, {'score': 0.6297081112861633, 'corpus_id': 606, 'candidate': 'Бакалавриат и специалитет. Бюджетные места. Окончание подачи документов с вступительными испытаниями МГТУ - 20.07.2025'}, {'score': 0.6260524392127991, 'corpus_id': 353, 'candidate': '10.\tВ рамках подготовки к проведению и проведения приема на обучение МГТУ им. Г.И.Носова:\nразмещает информацию о приеме на обучение на своем официальном сайте в информационно-телекоммуникационной сети "Интернет" https://www.magtu.ru (далее - официальный сайт);\nпроводит прием от поступающих заявлений о приеме на обучение и документов, необходимых для поступления и прилагаемых к заявлению о приеме на обучение (далее соответственно - прием заявлений и документов, заявление о приеме, документы, необходимые для поступления);\nсамостоятельно проводит вступительные испытания по программам бакалавриата и программам специалитета в случаях, установленных пунктом 42 Порядка, по программам магистратуры (далее - внутренние вступительные испытания);\nпроводит зачисление на обучение (далее - зачисление).'}, {'score': 0.6215527653694153, 'corpus_id': 354, 'candidate': '11.\tПрием на обучение проводится на конкурсной основе. Для проведения приема на обучение МГТУ им. Г.И.Носова устанавливает:\nперечень вступительных испытаний;\nпо каждому вступительному испытанию - максимальное количество баллов и минимальное количество баллов, подтверждающее успешное прохождение вступительного испытания (далее - минимальное количество баллов);\nперечень индивидуальных достижений поступающих (далее - индивидуальные достижения) и порядок их учета;\nпорядок предоставления особых прав, предусмотренных частями 4 и 12 статьи 71 Федерального закона N 273-ФЗ, и особого преимущества в соответствии с пунктами 53-55 Правил (по программам бакалавриата, программам специалитета).\nСумма конкурсных баллов исчисляется как сумма баллов за вступительные испытания и за индивидуальные достижения.'}, {'score': 0.6038065552711487, 'corpus_id': 618, 'candidate': 'Бакалавриат и специалитет. Платные места. Окончание вступительных испытаний МГТУ - 24.08.2025'}]
+2025-10-03 11:59:19,914 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 12:00:28,168 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 12:00:30,694 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 12:00:47,110 - INFO - Время, затраченное на первичный поиск: 0.6100077629089355
+2025-10-03 12:01:41,970 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 12:01:44,486 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 12:02:43,320 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 12:02:45,767 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 12:56:59,620 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 12:57:02,202 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 12:57:20,994 - INFO - Время, затраченное на первичный поиск: 0.5680243968963623
+2025-10-03 12:58:19,629 - INFO - Use pytorch device_name: cuda:0
+2025-10-03 12:58:19,629 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 12:58:22,046 - INFO - Use pytorch device_name: cuda:0
+2025-10-03 12:58:22,046 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 12:58:38,518 - INFO - Время, затраченное на первичный поиск: 0.60611891746521
+2025-10-03 12:59:08,339 - INFO - Use pytorch device_name: cuda:0
+2025-10-03 12:59:08,339 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 12:59:10,711 - INFO - Use pytorch device_name: cuda:0
+2025-10-03 12:59:10,711 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 12:59:26,072 - INFO - Время, затраченное на первичный поиск: 0.5700218677520752
+2025-10-03 13:00:03,058 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 13:00:04,609 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 13:00:21,050 - INFO - Время, затраченное на первичный поиск: 0.5920207500457764
+2025-10-03 13:00:33,612 - INFO - Время, затраченное на реранк: 12.560736656188965
+2025-10-03 13:00:35,530 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 13:00:59,370 - INFO - Время, затраченное на первичный поиск: 0.15600204467773438
+2025-10-03 13:01:01,609 - INFO - Время, затраченное на реранк: 2.2395975589752197
+2025-10-03 13:01:02,836 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 13:01:30,311 - INFO - Время, затраченное на первичный поиск: 0.1450026035308838
+2025-10-03 13:01:50,064 - INFO - Время, затраченное на реранк: 19.752193689346313
+2025-10-03 13:01:51,064 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 13:04:04,404 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 13:04:06,855 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 13:05:13,443 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 13:05:15,867 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 13:05:28,596 - INFO - Время, затраченное на первичный поиск: 0.5795419216156006
+2025-10-03 13:05:29,186 - INFO - Время, затраченное на реранк: 0.5895380973815918
+2025-10-03 13:05:30,607 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 13:05:49,425 - INFO - Время, затраченное на первичный поиск: 0.1419992446899414
+2025-10-03 13:05:49,751 - INFO - Время, затраченное на реранк: 0.3260049819946289
+2025-10-03 13:05:51,080 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 13:08:43,642 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-03 13:08:46,072 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-07 15:25:29,321 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-07 15:25:50,273 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-07 15:28:30,443 - INFO - Время, затраченное на первичный поиск: 1.7983043193817139
+2025-10-07 15:28:30,928 - INFO - Время, затраченное на реранк: 0.4844985008239746
+2025-10-07 15:28:33,552 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-14 14:08:01,756 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:08:22,155 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:19:20,784 - INFO - Время, затраченное на первичный поиск: 1.7114436626434326
+2025-10-14 14:19:21,199 - INFO - Время, затраченное на реранк: 0.41335535049438477
+2025-10-14 14:19:23,151 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-10-14 14:21:36,291 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:21:38,795 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:22:10,244 - INFO - Время, затраченное на первичный поиск: 0.34299278259277344
+2025-10-14 14:22:10,531 - INFO - Время, затраченное на реранк: 0.2870025634765625
+2025-10-14 14:22:11,946 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-14 14:22:11,947 - INFO - Retrying request to /chat/completions in 0.484720 seconds
+2025-10-14 14:22:12,999 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-14 14:22:12,999 - INFO - Retrying request to /chat/completions in 0.943415 seconds
+2025-10-14 14:22:14,631 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-14 14:25:27,181 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:25:29,572 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:25:38,065 - INFO - Время, затраченное на первичный поиск: 0.3302016258239746
+2025-10-14 14:25:38,286 - INFO - Время, затраченное на реранк: 0.22001218795776367
+2025-10-14 14:25:39,735 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-14 14:25:39,735 - INFO - Retrying request to /chat/completions in 0.484594 seconds
+2025-10-14 14:25:40,909 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-14 14:25:40,910 - INFO - Retrying request to /chat/completions in 0.767593 seconds
+2025-10-14 14:25:43,043 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-14 14:28:04,363 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:28:06,742 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:28:52,260 - INFO - Время, затраченное на первичный поиск: 0.3794698715209961
+2025-10-14 14:28:52,425 - INFO - Время, затраченное на реранк: 0.16500139236450195
+2025-10-14 14:28:55,506 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-14 14:30:35,958 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:30:38,314 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:30:59,334 - INFO - Время, затраченное на первичный поиск: 0.29400062561035156
+2025-10-14 14:30:59,594 - INFO - Время, затраченное на реранк: 0.2595369815826416
+2025-10-14 14:31:00,591 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-10-14 14:36:43,456 - INFO - Время, затраченное на первичный поиск: 0.08800125122070312
+2025-10-14 14:36:43,695 - INFO - Время, затраченное на реранк: 0.23954176902770996
+2025-10-14 14:36:45,236 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-14 14:36:45,236 - INFO - Retrying request to /chat/completions in 0.415397 seconds
+2025-10-14 14:36:46,781 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-14 14:36:46,782 - INFO - Retrying request to /chat/completions in 0.991255 seconds
+2025-10-14 14:36:48,891 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-14 14:39:02,851 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:39:05,242 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:39:11,104 - INFO - Время, затраченное на первичный поиск: 0.2800021171569824
+2025-10-14 14:39:11,258 - INFO - Время, затраченное на реранк: 0.15400171279907227
+2025-10-14 14:39:13,481 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-14 14:39:13,481 - INFO - Retrying request to /chat/completions in 0.457938 seconds
+2025-10-14 14:39:15,303 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-14 14:39:15,303 - INFO - Retrying request to /chat/completions in 0.845701 seconds
+2025-10-14 14:39:24,986 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-14 14:40:32,617 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:40:35,106 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:41:03,499 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:41:05,955 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:41:15,462 - INFO - Время, затраченное на первичный поиск: 0.3150031566619873
+2025-10-14 14:41:15,626 - INFO - Время, затраченное на реранк: 0.16453933715820312
+2025-10-14 14:41:17,043 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-14 14:41:17,044 - INFO - Retrying request to /chat/completions in 0.434458 seconds
+2025-10-14 14:41:18,057 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-14 14:41:18,057 - INFO - Retrying request to /chat/completions in 0.799211 seconds
+2025-10-14 14:41:19,414 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-14 14:42:01,753 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:42:04,187 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:42:11,924 - INFO - Время, затраченное на первичный поиск: 0.2760002613067627
+2025-10-14 14:42:12,202 - INFO - Время, затраченное на реранк: 0.2780017852783203
+2025-10-14 14:42:13,796 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-14 14:42:13,797 - INFO - Retrying request to /chat/completions in 0.488040 seconds
+2025-10-14 14:42:14,881 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-14 14:42:14,881 - INFO - Retrying request to /chat/completions in 0.925838 seconds
+2025-10-14 14:42:16,410 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-14 14:43:07,710 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:43:10,129 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-10-14 14:43:51,398 - INFO - Время, затраченное на первичный поиск: 0.3340003490447998
+2025-10-14 14:43:51,582 - INFO - Время, затраченное на реранк: 0.18400192260742188
+2025-10-14 14:43:55,077 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-14 14:50:58,133 - INFO - Время, затраченное на первичный поиск: 0.10300016403198242
+2025-10-14 14:50:58,434 - INFO - Время, затраченное на реранк: 0.30100083351135254
+2025-10-14 14:51:05,551 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-14 14:52:10,502 - INFO - Время, затраченное на первичный поиск: 0.09799838066101074
+2025-10-14 14:52:10,645 - INFO - Время, затраченное на реранк: 0.14299988746643066
+2025-10-14 14:52:12,466 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-14 14:52:51,901 - INFO - Время, затраченное на первичный поиск: 0.09453701972961426
+2025-10-14 14:52:52,242 - INFO - Время, затраченное на реранк: 0.3410000801086426
+2025-10-14 14:52:54,511 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-14 14:54:47,551 - INFO - Время, затраченное на первичный поиск: 0.1011195182800293
+2025-10-14 14:54:47,731 - INFO - Время, затраченное на реранк: 0.18021464347839355
+2025-10-14 14:54:49,916 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 12:33:21,514 - INFO - Загрузка векторных компонентов
+2025-11-12 12:33:21,556 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 12:33:42,320 - INFO - Загрузка базы данных
+2025-11-12 12:34:32,711 - INFO - Загрузка векторных компонентов
+2025-11-12 12:34:32,731 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 12:34:35,272 - INFO - Загрузка базы данных
+2025-11-12 12:35:16,518 - INFO - Загрузка векторных компонентов
+2025-11-12 12:35:16,538 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 12:35:19,140 - INFO - Загрузка базы данных
+2025-11-12 12:36:55,033 - INFO - Загрузка векторных компонентов
+2025-11-12 12:36:55,054 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 12:36:57,576 - INFO - Загрузка базы данных
+2025-11-12 12:36:57,595 - INFO - Инициализация агента
+2025-11-12 12:38:48,613 - INFO - Загрузка векторных компонентов
+2025-11-12 12:38:48,637 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 12:38:51,211 - INFO - Загрузка базы данных
+2025-11-12 12:38:51,230 - INFO - Инициализация агента
+2025-11-12 12:39:05,157 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 12:39:15,957 - INFO - Время, затраченное на первичный поиск: 1.5621659755706787
+2025-11-12 12:39:16,623 - INFO - Время, затраченное на реранк: 0.666024923324585
+2025-11-12 12:39:20,321 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 12:39:41,785 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 12:40:59,263 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 12:41:07,606 - INFO - Время, затраченное на первичный поиск: 0.12653565406799316
+2025-11-12 12:41:08,295 - INFO - Время, затраченное на реранк: 0.6890122890472412
+2025-11-12 12:41:11,780 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 12:41:42,953 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 12:43:37,947 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 12:46:47,628 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 12:47:26,094 - INFO - Загрузка векторных компонентов
+2025-11-12 12:47:26,115 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 12:47:28,696 - INFO - Загрузка базы данных
+2025-11-12 12:47:28,715 - INFO - Инициализация агента
+2025-11-12 12:47:40,270 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 12:47:54,722 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 12:48:01,272 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 12:55:55,517 - INFO - Загрузка векторных компонентов
+2025-11-12 12:55:55,538 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 12:55:58,076 - INFO - Загрузка базы данных
+2025-11-12 12:55:58,095 - INFO - Инициализация агента
+2025-11-12 12:56:07,151 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 12:56:23,235 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 12:56:39,898 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 12:56:51,493 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 12:57:05,196 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 12:57:16,573 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 12:57:30,022 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:00:44,562 - INFO - Загрузка векторных компонентов
+2025-11-12 13:00:44,582 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 13:00:47,227 - INFO - Загрузка базы данных
+2025-11-12 13:00:47,245 - INFO - Инициализация агента
+2025-11-12 13:01:38,895 - INFO - Загрузка векторных компонентов
+2025-11-12 13:01:38,917 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 13:01:41,559 - INFO - Загрузка базы данных
+2025-11-12 13:01:41,580 - INFO - Инициализация агента
+2025-11-12 13:02:26,867 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:02:38,813 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:03:02,972 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:03:14,174 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:03:26,297 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:05:07,036 - INFO - Загрузка векторных компонентов
+2025-11-12 13:05:07,056 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 13:05:09,628 - INFO - Загрузка базы данных
+2025-11-12 13:05:09,647 - INFO - Инициализация агента
+2025-11-12 13:05:49,902 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:06:06,819 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:06:22,876 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:06:31,172 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:06:52,811 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:07:13,853 - INFO - Retrying request to /chat/completions in 0.457294 seconds
+2025-11-12 13:07:18,060 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:07:43,273 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:07:55,048 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:08:23,903 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:08:29,818 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:08:55,646 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:09:24,057 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:09:40,668 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:10:07,280 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:10:18,883 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:13:31,075 - INFO - Загрузка векторных компонентов
+2025-11-12 13:13:31,095 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 13:13:33,618 - INFO - Загрузка базы данных
+2025-11-12 13:13:33,637 - INFO - Инициализация агента
+2025-11-12 13:13:49,392 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:14:05,573 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:14:22,722 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:30:24,981 - INFO - Загрузка векторных компонентов
+2025-11-12 13:30:25,005 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 13:30:27,827 - INFO - Загрузка базы данных
+2025-11-12 13:30:27,847 - INFO - Инициализация агента
+2025-11-12 13:31:20,726 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:31:20,726 - INFO - Retrying request to /chat/completions in 0.436779 seconds
+2025-11-12 13:31:21,996 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:31:26,257 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:31:50,540 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:31:54,018 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:31:54,018 - INFO - Retrying request to /chat/completions in 0.418056 seconds
+2025-11-12 13:31:54,778 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:31:54,778 - INFO - Retrying request to /chat/completions in 0.757873 seconds
+2025-11-12 13:31:55,753 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:33:10,686 - INFO - 3 changes detected
+2025-11-12 13:34:04,382 - INFO - 5 changes detected
+2025-11-12 13:34:06,763 - INFO - 5 changes detected
+2025-11-12 13:34:12,143 - INFO - Загрузка векторных компонентов
+2025-11-12 13:34:12,165 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 13:34:12,399 - INFO - 1 change detected
+2025-11-12 13:34:14,775 - INFO - Загрузка базы данных
+2025-11-12 13:34:14,797 - INFO - Инициализация агента
+2025-11-12 13:34:19,299 - INFO - 1 change detected
+2025-11-12 13:34:42,930 - INFO - Загрузка векторных компонентов
+2025-11-12 13:34:42,950 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 13:34:43,374 - INFO - 1 change detected
+2025-11-12 13:34:45,489 - INFO - Загрузка базы данных
+2025-11-12 13:34:45,507 - INFO - Инициализация агента
+2025-11-12 13:34:58,802 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:34:58,802 - INFO - Retrying request to /chat/completions in 0.385473 seconds
+2025-11-12 13:34:59,523 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:34:59,523 - INFO - Retrying request to /chat/completions in 0.830762 seconds
+2025-11-12 13:35:00,599 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:35:36,850 - INFO - 1 change detected
+2025-11-12 13:35:49,029 - INFO - 6 changes detected
+2025-11-12 13:35:54,782 - INFO - 3 changes detected
+2025-11-12 13:36:12,530 - INFO - Загрузка векторных компонентов
+2025-11-12 13:36:12,549 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 13:36:15,141 - INFO - Загрузка базы данных
+2025-11-12 13:36:15,160 - INFO - Инициализация агента
+2025-11-12 13:36:22,422 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:36:22,422 - INFO - Retrying request to /chat/completions in 0.420977 seconds
+2025-11-12 13:36:23,267 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:36:23,267 - INFO - Retrying request to /chat/completions in 0.761363 seconds
+2025-11-12 13:36:24,294 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:37:31,707 - INFO - 3 changes detected
+2025-11-12 13:38:33,957 - INFO - 10 changes detected
+2025-11-12 13:38:36,223 - INFO - 5 changes detected
+2025-11-12 13:38:41,156 - INFO - 5 changes detected
+2025-11-12 13:38:55,786 - INFO - Загрузка векторных компонентов
+2025-11-12 13:38:55,806 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 13:38:58,346 - INFO - Загрузка базы данных
+2025-11-12 13:38:58,365 - INFO - Инициализация агента
+2025-11-12 13:39:06,438 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:39:17,891 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:39:17,891 - INFO - Retrying request to /chat/completions in 0.400789 seconds
+2025-11-12 13:39:19,619 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:41:01,196 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:41:01,196 - INFO - Retrying request to /chat/completions in 0.392909 seconds
+2025-11-12 13:41:02,425 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:41:02,425 - INFO - Retrying request to /chat/completions in 0.832629 seconds
+2025-11-12 13:41:05,416 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:41:19,245 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:43:02,415 - INFO - Загрузка векторных компонентов
+2025-11-12 13:43:02,436 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 13:43:04,994 - INFO - Загрузка базы данных
+2025-11-12 13:43:05,013 - INFO - Инициализация агента
+2025-11-12 13:43:10,637 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:43:12,725 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:44:24,856 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:44:28,724 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:45:40,666 - INFO - Загрузка векторных компонентов
+2025-11-12 13:45:40,687 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 13:45:43,340 - INFO - Загрузка базы данных
+2025-11-12 13:45:43,359 - INFO - Инициализация агента
+2025-11-12 13:45:49,927 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:45:49,928 - INFO - Retrying request to /chat/completions in 0.400626 seconds
+2025-11-12 13:45:51,297 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:45:51,297 - INFO - Retrying request to /chat/completions in 0.807319 seconds
+2025-11-12 13:45:52,906 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:47:25,832 - INFO - Загрузка векторных компонентов
+2025-11-12 13:47:25,849 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 13:47:28,452 - INFO - Загрузка базы данных
+2025-11-12 13:47:28,472 - INFO - Инициализация агента
+2025-11-12 13:47:42,165 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:48:35,739 - INFO - 6 changes detected
+2025-11-12 13:48:40,900 - INFO - 3 changes detected
+2025-11-12 13:48:47,812 - INFO - 5 changes detected
+2025-11-12 13:48:48,068 - INFO - Загрузка векторных компонентов
+2025-11-12 13:48:48,089 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 13:48:48,164 - INFO - 6 changes detected
+2025-11-12 13:48:50,694 - INFO - Загрузка базы данных
+2025-11-12 13:48:50,715 - INFO - Инициализация агента
+2025-11-12 13:48:56,233 - INFO - 1 change detected
+2025-11-12 13:49:19,288 - INFO - Загрузка векторных компонентов
+2025-11-12 13:49:19,309 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 13:49:21,978 - INFO - Загрузка базы данных
+2025-11-12 13:49:21,998 - INFO - Инициализация агента
+2025-11-12 13:49:31,056 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:49:35,684 - INFO - Время, затраченное на первичный поиск: 0.5301535129547119
+2025-11-12 13:49:35,786 - INFO - Время, затраченное на реранк: 0.10101318359375
+2025-11-12 13:49:36,754 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:49:36,754 - INFO - Retrying request to /chat/completions in 0.448920 seconds
+2025-11-12 13:49:37,554 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:49:37,554 - INFO - Retrying request to /chat/completions in 0.898771 seconds
+2025-11-12 13:49:38,815 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 13:50:51,464 - INFO - Загрузка векторных компонентов
+2025-11-12 13:50:51,485 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 13:50:54,105 - INFO - Загрузка базы данных
+2025-11-12 13:50:54,125 - INFO - Инициализация агента
+2025-11-12 13:51:03,368 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:51:30,717 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:52:14,020 - INFO - 3 changes detected
+2025-11-12 13:52:37,701 - INFO - Загрузка векторных компонентов
+2025-11-12 13:52:37,722 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 13:52:38,929 - INFO - 1 change detected
+2025-11-12 13:52:40,263 - INFO - Загрузка базы данных
+2025-11-12 13:52:40,281 - INFO - Инициализация агента
+2025-11-12 13:52:45,752 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:53:17,230 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 13:53:54,017 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 14:11:50,772 - INFO - 1 change detected
+2025-11-12 14:11:56,731 - INFO - 3 changes detected
+2025-11-12 14:12:05,088 - INFO - 2 changes detected
+2025-11-12 14:12:06,915 - INFO - 5 changes detected
+2025-11-12 14:12:23,153 - INFO - Загрузка векторных компонентов
+2025-11-12 14:12:23,172 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 14:12:25,790 - INFO - Загрузка базы данных
+2025-11-12 14:12:25,810 - INFO - Инициализация агента
+2025-11-12 14:12:30,615 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 14:12:42,897 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 14:13:14,991 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 14:14:27,391 - INFO - 3 changes detected
+2025-11-12 14:14:52,464 - INFO - 2 changes detected
+2025-11-12 14:14:54,291 - INFO - 5 changes detected
+2025-11-12 14:14:59,502 - INFO - Загрузка векторных компонентов
+2025-11-12 14:14:59,522 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 14:14:59,530 - INFO - 1 change detected
+2025-11-12 14:15:02,173 - INFO - Загрузка базы данных
+2025-11-12 14:15:02,192 - INFO - Инициализация агента
+2025-11-12 14:15:08,024 - INFO - 1 change detected
+2025-11-12 14:16:41,316 - INFO - 1 change detected
+2025-11-12 14:16:57,098 - INFO - 1 change detected
+2025-11-12 14:17:45,743 - INFO - 1 change detected
+2025-11-12 14:19:14,417 - INFO - 1 change detected
+2025-11-12 14:20:05,114 - INFO - 1 change detected
+2025-11-12 14:21:11,071 - INFO - 1 change detected
+2025-11-12 14:21:35,399 - INFO - 1 change detected
+2025-11-12 14:21:37,688 - INFO - 1 change detected
+2025-11-12 14:21:40,740 - INFO - 1 change detected
+2025-11-12 14:36:35,437 - INFO - 1 change detected
+2025-11-12 14:44:15,266 - INFO - 1 change detected
+2025-11-12 14:44:57,883 - INFO - 1 change detected
+2025-11-12 14:45:03,776 - INFO - 1 change detected
+2025-11-12 14:46:54,387 - INFO - 1 change detected
+2025-11-12 15:06:35,473 - INFO - 1 change detected
+2025-11-12 15:10:17,784 - INFO - 1 change detected
+2025-11-12 15:10:20,378 - INFO - 1 change detected
+2025-11-12 15:11:42,384 - INFO - 1 change detected
+2025-11-12 15:11:49,305 - INFO - 1 change detected
+2025-11-12 15:12:05,799 - INFO - 1 change detected
+2025-11-12 15:13:16,254 - INFO - 1 change detected
+2025-11-12 15:13:33,517 - INFO - 1 change detected
+2025-11-12 15:13:41,916 - INFO - 1 change detected
+2025-11-12 15:13:59,832 - INFO - 1 change detected
+2025-11-12 15:14:23,250 - INFO - 1 change detected
+2025-11-12 15:15:24,239 - INFO - 1 change detected
+2025-11-12 15:16:16,316 - INFO - 1 change detected
+2025-11-12 15:17:00,132 - INFO - 1 change detected
+2025-11-12 15:17:08,570 - INFO - 1 change detected
+2025-11-12 15:17:09,789 - INFO - 3 changes detected
+2025-11-12 15:20:52,671 - INFO - 5 changes detected
+2025-11-12 15:26:45,562 - INFO - Загрузка векторных компонентов
+2025-11-12 15:26:45,582 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 15:26:48,251 - INFO - Загрузка базы данных
+2025-11-12 15:26:48,271 - INFO - Инициализация агента
+2025-11-12 15:27:17,399 - INFO - Retrying request to /chat/completions in 0.494113 seconds
+2025-11-12 15:27:33,416 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:28:02,501 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:29:39,785 - INFO - Загрузка векторных компонентов
+2025-11-12 15:29:39,808 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 15:29:42,360 - INFO - Загрузка базы данных
+2025-11-12 15:29:42,379 - INFO - Инициализация агента
+2025-11-12 15:29:48,534 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:30:02,878 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:33:45,921 - INFO - Загрузка векторных компонентов
+2025-11-12 15:33:45,942 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 15:33:48,484 - INFO - Загрузка базы данных
+2025-11-12 15:33:48,504 - INFO - Инициализация агента
+2025-11-12 15:33:58,076 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:34:07,953 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:36:13,020 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:37:06,678 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:38:26,087 - INFO - Загрузка векторных компонентов
+2025-11-12 15:38:26,108 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 15:38:28,694 - INFO - Загрузка базы данных
+2025-11-12 15:38:28,713 - INFO - Инициализация агента
+2025-11-12 15:38:37,450 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:38:45,239 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:39:30,677 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:39:36,222 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:40:35,109 - INFO - Загрузка векторных компонентов
+2025-11-12 15:40:35,134 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 15:40:37,774 - INFO - Загрузка базы данных
+2025-11-12 15:40:37,793 - INFO - Инициализация агента
+2025-11-12 15:40:46,995 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:40:51,188 - INFO - Время, затраченное на первичный поиск: 0.454709529876709
+2025-11-12 15:40:51,855 - INFO - Время, затраченное на реранк: 0.6665802001953125
+2025-11-12 15:40:53,994 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:41:04,408 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:41:10,251 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:45:15,221 - INFO - Загрузка векторных компонентов
+2025-11-12 15:45:15,243 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 15:45:17,873 - INFO - Загрузка базы данных
+2025-11-12 15:45:17,892 - INFO - Инициализация агента
+2025-11-12 15:45:21,676 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 15:45:21,676 - INFO - Retrying request to /chat/completions in 0.449119 seconds
+2025-11-12 15:45:22,549 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 15:45:22,549 - INFO - Retrying request to /chat/completions in 0.948524 seconds
+2025-11-12 15:45:23,786 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 15:47:02,234 - INFO - 1 change detected
+2025-11-12 15:47:34,583 - INFO - 3 changes detected
+2025-11-12 15:47:41,274 - INFO - 2 changes detected
+2025-11-12 15:47:43,105 - INFO - 5 changes detected
+2025-11-12 15:47:48,316 - INFO - Загрузка векторных компонентов
+2025-11-12 15:47:48,337 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 15:47:48,341 - INFO - 1 change detected
+2025-11-12 15:48:04,000 - INFO - Загрузка векторных компонентов
+2025-11-12 15:48:04,020 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 15:48:06,593 - INFO - Загрузка базы данных
+2025-11-12 15:48:06,612 - INFO - Инициализация агента
+2025-11-12 15:48:13,178 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:48:20,683 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:50:55,122 - INFO - 3 changes detected
+2025-11-12 15:51:19,615 - INFO - 2 changes detected
+2025-11-12 15:51:21,442 - INFO - 5 changes detected
+2025-11-12 15:51:39,068 - INFO - Загрузка векторных компонентов
+2025-11-12 15:51:39,094 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 15:51:41,682 - INFO - Загрузка базы данных
+2025-11-12 15:51:41,701 - INFO - Инициализация агента
+2025-11-12 15:51:47,584 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:51:53,542 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 15:51:53,543 - INFO - Retrying request to /chat/completions in 0.403062 seconds
+2025-11-12 15:51:54,491 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 15:51:54,491 - INFO - Retrying request to /chat/completions in 0.923979 seconds
+2025-11-12 15:51:55,838 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 15:53:08,462 - INFO - 1 change detected
+2025-11-12 15:53:28,019 - INFO - 6 changes detected
+2025-11-12 15:53:45,617 - INFO - Загрузка векторных компонентов
+2025-11-12 15:53:45,636 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 15:53:48,187 - INFO - Загрузка базы данных
+2025-11-12 15:53:48,206 - INFO - Инициализация агента
+2025-11-12 15:53:56,321 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:53:59,092 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:59:14,434 - INFO - Загрузка векторных компонентов
+2025-11-12 15:59:14,454 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 15:59:16,963 - INFO - Загрузка базы данных
+2025-11-12 15:59:16,984 - INFO - Инициализация агента
+2025-11-12 15:59:20,186 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:59:24,297 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 15:59:27,740 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 16:00:08,478 - INFO - 3 changes detected
+2025-11-12 16:01:41,130 - INFO - Загрузка векторных компонентов
+2025-11-12 16:01:41,149 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 16:01:43,686 - INFO - Загрузка базы данных
+2025-11-12 16:01:43,705 - INFO - Инициализация агента
+2025-11-12 16:01:48,331 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 16:01:52,783 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 16:02:41,633 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 16:02:50,479 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 16:03:02,620 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 16:03:13,564 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 16:03:21,586 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 16:03:21,587 - INFO - Retrying request to /chat/completions in 0.376410 seconds
+2025-11-12 16:03:23,075 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 16:06:23,810 - INFO - Загрузка векторных компонентов
+2025-11-12 16:06:23,829 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 16:06:26,431 - INFO - Загрузка базы данных
+2025-11-12 16:06:26,452 - INFO - Инициализация агента
+2025-11-12 16:06:35,556 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 16:07:38,190 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 16:08:44,988 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 16:09:03,282 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 16:09:22,336 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 16:09:41,973 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 16:10:41,281 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 16:11:31,142 - INFO - Загрузка векторных компонентов
+2025-11-12 16:11:31,162 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-12 16:11:33,719 - INFO - Загрузка базы данных
+2025-11-12 16:11:33,737 - INFO - Инициализация агента
+2025-11-12 16:11:45,441 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 16:11:45,442 - INFO - Retrying request to /chat/completions in 0.403140 seconds
+2025-11-12 16:11:47,593 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-12 16:12:29,957 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 16:12:29,957 - INFO - Retrying request to /chat/completions in 0.406408 seconds
+2025-11-12 16:12:30,837 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-12 16:12:30,838 - INFO - Retrying request to /chat/completions in 0.835796 seconds
+2025-11-12 16:12:32,866 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 07:45:44,365 - INFO - Загрузка векторных компонентов
+2025-11-13 07:45:44,386 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 07:45:46,976 - INFO - Загрузка базы данных
+2025-11-13 07:45:46,994 - INFO - Инициализация агента
+2025-11-13 07:46:18,749 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 07:46:21,422 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:02:24,890 - INFO - 2 changes detected
+2025-11-13 08:02:31,508 - INFO - 4 changes detected
+2025-11-13 08:02:33,761 - INFO - 5 changes detected
+2025-11-13 08:02:49,697 - INFO - Загрузка векторных компонентов
+2025-11-13 08:02:49,717 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:02:52,272 - INFO - Загрузка базы данных
+2025-11-13 08:02:52,290 - INFO - Инициализация агента
+2025-11-13 08:02:56,490 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:03:02,075 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:03:07,677 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:03:14,342 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:03:19,286 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:03:23,713 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:03:27,728 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:03:46,411 - INFO - Загрузка векторных компонентов
+2025-11-13 08:03:46,430 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:03:47,704 - INFO - 1 change detected
+2025-11-13 08:03:49,010 - INFO - Загрузка базы данных
+2025-11-13 08:03:49,029 - INFO - Инициализация агента
+2025-11-13 08:03:53,557 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:03:56,234 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:04:42,451 - INFO - 1 change detected
+2025-11-13 08:05:42,954 - INFO - 1 change detected
+2025-11-13 08:05:57,053 - INFO - 1 change detected
+2025-11-13 08:06:08,927 - INFO - 1 change detected
+2025-11-13 08:06:48,906 - INFO - Загрузка векторных компонентов
+2025-11-13 08:06:48,926 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:06:51,466 - INFO - Загрузка базы данных
+2025-11-13 08:06:51,484 - INFO - Инициализация агента
+2025-11-13 08:06:54,617 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:06:57,296 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:08:58,582 - INFO - Загрузка векторных компонентов
+2025-11-13 08:08:58,602 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:09:01,157 - INFO - Загрузка базы данных
+2025-11-13 08:09:01,175 - INFO - Инициализация агента
+2025-11-13 08:09:26,940 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:09:35,657 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:09:44,743 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:09:50,118 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:11:45,205 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:11:48,493 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:11:51,226 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:14:45,824 - INFO - 2 changes detected
+2025-11-13 08:15:04,762 - INFO - Загрузка векторных компонентов
+2025-11-13 08:15:04,782 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:15:05,199 - INFO - 1 change detected
+2025-11-13 08:15:07,282 - INFO - Загрузка базы данных
+2025-11-13 08:15:07,300 - INFO - Инициализация агента
+2025-11-13 08:15:11,221 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:15:17,523 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:15:52,320 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:15:57,820 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:16:01,226 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:16:03,723 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:16:10,432 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:16:33,289 - INFO - 1 change detected
+2025-11-13 08:17:24,524 - INFO - Загрузка векторных компонентов
+2025-11-13 08:17:24,543 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:17:27,128 - INFO - Загрузка базы данных
+2025-11-13 08:17:27,147 - INFO - Инициализация агента
+2025-11-13 08:17:30,567 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:17:34,335 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:17:38,974 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:17:44,585 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:17:49,159 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:17:50,635 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:17:55,180 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:17:55,180 - INFO - Retrying request to /chat/completions in 0.490183 seconds
+2025-11-13 08:17:56,124 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:17:56,125 - INFO - Retrying request to /chat/completions in 0.912502 seconds
+2025-11-13 08:17:57,498 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:18:41,259 - INFO - Загрузка векторных компонентов
+2025-11-13 08:18:41,279 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:18:42,664 - INFO - 1 change detected
+2025-11-13 08:18:43,836 - INFO - Загрузка базы данных
+2025-11-13 08:18:43,855 - INFO - Инициализация агента
+2025-11-13 08:18:51,223 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:18:53,834 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:18:55,267 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:19:13,808 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:19:17,603 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:19:19,413 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:21:24,213 - INFO - Загрузка векторных компонентов
+2025-11-13 08:21:24,233 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:21:26,780 - INFO - Загрузка базы данных
+2025-11-13 08:21:26,798 - INFO - Инициализация агента
+2025-11-13 08:21:32,561 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:21:36,678 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:21:41,139 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:21:45,084 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:21:49,059 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:21:53,565 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:21:57,905 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:22:02,669 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:22:07,480 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:22:11,916 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:22:16,923 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:22:21,528 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:23:41,360 - INFO - Загрузка векторных компонентов
+2025-11-13 08:23:41,380 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:23:43,909 - INFO - Загрузка базы данных
+2025-11-13 08:23:43,928 - INFO - Инициализация агента
+2025-11-13 08:23:46,969 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:23:46,970 - INFO - Retrying request to /chat/completions in 0.488424 seconds
+2025-11-13 08:23:48,013 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:23:49,124 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:23:49,125 - INFO - Retrying request to /chat/completions in 0.406015 seconds
+2025-11-13 08:23:50,106 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:23:50,106 - INFO - Retrying request to /chat/completions in 0.750797 seconds
+2025-11-13 08:23:51,544 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:23:52,627 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:23:52,627 - INFO - Retrying request to /chat/completions in 0.429448 seconds
+2025-11-13 08:23:53,674 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:23:53,675 - INFO - Retrying request to /chat/completions in 0.815512 seconds
+2025-11-13 08:23:55,646 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:24:59,739 - INFO - Загрузка векторных компонентов
+2025-11-13 08:24:59,759 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:25:02,389 - INFO - Загрузка базы данных
+2025-11-13 08:25:02,408 - INFO - Инициализация агента
+2025-11-13 08:25:09,095 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:25:09,095 - INFO - Retrying request to /chat/completions in 0.439852 seconds
+2025-11-13 08:25:09,889 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:25:09,890 - INFO - Retrying request to /chat/completions in 0.994754 seconds
+2025-11-13 08:25:11,240 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:25:34,578 - INFO - 6 changes detected
+2025-11-13 08:25:54,099 - INFO - Загрузка векторных компонентов
+2025-11-13 08:25:54,118 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:25:56,613 - INFO - Загрузка базы данных
+2025-11-13 08:25:56,631 - INFO - Инициализация агента
+2025-11-13 08:25:59,562 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:25:59,562 - INFO - Retrying request to /chat/completions in 0.460415 seconds
+2025-11-13 08:26:01,857 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:26:02,956 - INFO - Время, затраченное на первичный поиск: 0.380551815032959
+2025-11-13 08:26:03,179 - INFO - Время, затраченное на реранк: 0.2230081558227539
+2025-11-13 08:26:05,332 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:26:13,998 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:26:13,998 - INFO - Retrying request to /chat/completions in 0.475350 seconds
+2025-11-13 08:26:15,051 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:26:15,052 - INFO - Retrying request to /chat/completions in 0.872669 seconds
+2025-11-13 08:26:16,603 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:26:52,956 - INFO - Загрузка векторных компонентов
+2025-11-13 08:26:52,976 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:26:55,542 - INFO - Загрузка базы данных
+2025-11-13 08:26:55,560 - INFO - Инициализация агента
+2025-11-13 08:27:05,028 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:27:05,029 - INFO - Retrying request to /chat/completions in 0.384387 seconds
+2025-11-13 08:27:05,622 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:27:05,623 - INFO - Retrying request to /chat/completions in 0.756492 seconds
+2025-11-13 08:27:06,654 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:27:39,596 - INFO - Загрузка векторных компонентов
+2025-11-13 08:27:39,616 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:27:42,154 - INFO - Загрузка базы данных
+2025-11-13 08:27:42,172 - INFO - Инициализация агента
+2025-11-13 08:27:46,302 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:27:46,302 - INFO - Retrying request to /chat/completions in 0.398804 seconds
+2025-11-13 08:27:47,096 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:27:47,097 - INFO - Retrying request to /chat/completions in 0.838036 seconds
+2025-11-13 08:27:48,373 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:27:58,022 - INFO - 3 changes detected
+2025-11-13 08:28:15,788 - INFO - Загрузка векторных компонентов
+2025-11-13 08:28:15,807 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:28:16,128 - INFO - 1 change detected
+2025-11-13 08:28:18,372 - INFO - Загрузка базы данных
+2025-11-13 08:28:18,391 - INFO - Инициализация агента
+2025-11-13 08:28:26,261 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:29:34,643 - INFO - Загрузка векторных компонентов
+2025-11-13 08:29:34,663 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:29:37,298 - INFO - Загрузка базы данных
+2025-11-13 08:29:37,319 - INFO - Инициализация агента
+2025-11-13 08:29:49,606 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:29:52,964 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:29:56,052 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:30:19,785 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:30:40,288 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:31:16,750 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:31:52,312 - INFO - Загрузка векторных компонентов
+2025-11-13 08:31:52,332 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:31:54,865 - INFO - Загрузка базы данных
+2025-11-13 08:31:54,885 - INFO - Инициализация агента
+2025-11-13 08:31:58,617 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:32:24,184 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:32:43,492 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:32:45,893 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:32:47,686 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:32:49,263 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:34:22,277 - INFO - 6 changes detected
+2025-11-13 08:34:42,411 - INFO - Загрузка векторных компонентов
+2025-11-13 08:34:42,431 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:34:44,989 - INFO - Загрузка базы данных
+2025-11-13 08:34:45,007 - INFO - Инициализация агента
+2025-11-13 08:34:49,799 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:34:49,800 - INFO - Retrying request to /chat/completions in 0.454109 seconds
+2025-11-13 08:34:50,905 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:34:50,905 - INFO - Retrying request to /chat/completions in 0.898545 seconds
+2025-11-13 08:34:52,488 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:35:45,259 - INFO - Загрузка векторных компонентов
+2025-11-13 08:35:45,279 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:35:47,870 - INFO - Загрузка базы данных
+2025-11-13 08:35:47,889 - INFO - Инициализация агента
+2025-11-13 08:35:58,518 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:36:00,630 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:36:02,264 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:36:06,435 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:36:06,435 - INFO - Retrying request to /chat/completions in 0.448885 seconds
+2025-11-13 08:36:07,878 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:39:14,864 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:39:16,395 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:39:16,395 - INFO - Retrying request to /chat/completions in 0.438564 seconds
+2025-11-13 08:39:17,225 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:39:17,225 - INFO - Retrying request to /chat/completions in 0.972696 seconds
+2025-11-13 08:39:19,533 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:39:20,798 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:39:23,018 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:39:24,427 - INFO - Время, затраченное на первичный поиск: 0.3590128421783447
+2025-11-13 08:39:24,594 - INFO - Время, затраченное на реранк: 0.1670074462890625
+2025-11-13 08:39:25,270 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:39:25,270 - INFO - Retrying request to /chat/completions in 0.426207 seconds
+2025-11-13 08:39:26,144 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:39:26,145 - INFO - Retrying request to /chat/completions in 0.820255 seconds
+2025-11-13 08:39:27,382 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:42:19,290 - INFO - Загрузка векторных компонентов
+2025-11-13 08:42:19,309 - INFO - Load pretrained SentenceTransformer: D:\mishutqa\Pycharm Projects\abitBot\app\models\deepvk\USER-bge-m3
+2025-11-13 08:42:21,851 - INFO - Загрузка базы данных
+2025-11-13 08:42:21,869 - INFO - Инициализация агента
+2025-11-13 08:42:30,208 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:42:34,254 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:42:35,125 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:42:35,125 - INFO - Retrying request to /chat/completions in 0.402426 seconds
+2025-11-13 08:42:35,860 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:42:35,861 - INFO - Retrying request to /chat/completions in 0.933684 seconds
+2025-11-13 08:42:38,412 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:42:40,007 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:43:33,232 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:43:35,160 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:43:36,234 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:43:36,234 - INFO - Retrying request to /chat/completions in 0.468955 seconds
+2025-11-13 08:43:37,713 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-13 08:43:45,026 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:43:45,026 - INFO - Retrying request to /chat/completions in 0.471807 seconds
+2025-11-13 08:43:45,779 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 08:43:45,779 - INFO - Retrying request to /chat/completions in 0.872584 seconds
+2025-11-13 08:43:46,873 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-13 09:06:37,030 - INFO - 1 change detected
+2025-11-13 09:16:51,908 - INFO - 1 change detected
+2025-11-13 09:16:58,535 - INFO - 1 change detected
+2025-11-13 09:24:52,447 - INFO - 1 change detected
+2025-11-13 09:25:08,013 - INFO - 1 change detected
+2025-11-13 09:42:39,700 - INFO - 1 change detected
+2025-11-13 10:15:55,663 - INFO - 1 change detected
+2025-11-13 10:36:37,335 - INFO - 1 change detected
+2025-11-13 11:39:58,015 - INFO - 1 change detected
+2025-11-13 12:07:48,309 - INFO - 1 change detected
+2025-11-13 12:37:48,418 - INFO - 1 change detected
+2025-11-13 13:07:48,219 - INFO - 1 change detected
+2025-11-13 13:37:48,753 - INFO - 1 change detected
+2025-12-03 11:46:08,537 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 11:46:08,583 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 11:46:40,583 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 11:46:40,612 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 11:46:51,101 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-03 11:46:51,116 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-03 11:47:25,184 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-12-03 11:48:43,022 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 11:48:43,049 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 11:48:45,698 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-03 11:48:45,711 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-03 11:49:43,912 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 11:49:43,939 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 11:49:46,476 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-03 11:49:46,488 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-03 11:49:50,922 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 11:50:08,078 - INFO - Р’СЂРµРјСЏ, Р·Р°С‚СЂР°С‡РµРЅРЅРѕРµ РЅР° РїРµСЂРІРёС‡РЅС‹Р№ РїРѕРёСЃРє: 0.31616806983947754
+2025-12-03 11:50:08,981 - INFO - Р’СЂРµРјСЏ, Р·Р°С‚СЂР°С‡РµРЅРЅРѕРµ РЅР° СЂРµСЂР°РЅРє: 0.9031322002410889
+2025-12-03 11:50:09,637 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 11:50:38,910 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 13:37:01,207 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 13:37:21,980 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 13:38:30,003 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 13:38:53,521 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 13:40:33,616 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 13:40:48,912 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 13:41:39,276 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 13:42:38,698 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 15:45:08,897 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 15:45:08,919 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 15:45:10,727 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-03 15:45:10,740 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-03 15:56:21,953 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 15:56:21,983 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 15:56:23,659 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-03 15:56:23,672 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-03 16:01:29,784 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 16:01:29,815 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 16:01:31,607 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-03 16:01:31,620 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-03 16:03:34,478 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:04:55,553 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 16:04:55,592 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 16:04:57,354 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-03 16:04:57,368 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-03 16:05:25,461 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:06:48,002 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 16:06:48,040 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 16:06:49,577 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-03 16:06:49,590 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-03 16:07:07,051 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:07:23,140 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:07:52,064 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:08:08,766 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:08:23,137 - INFO - Р’СЂРµРјСЏ, Р·Р°С‚СЂР°С‡РµРЅРЅРѕРµ РЅР° РїРµСЂРІРёС‡РЅС‹Р№ РїРѕРёСЃРє: 0.2330007553100586
+2025-12-03 16:08:23,453 - INFO - Р’СЂРµРјСЏ, Р·Р°С‚СЂР°С‡РµРЅРЅРѕРµ РЅР° СЂРµСЂР°РЅРє: 0.3161017894744873
+2025-12-03 16:08:25,047 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:08:52,714 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:09:52,801 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 16:09:52,835 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 16:09:54,430 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-03 16:09:54,444 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-03 16:10:29,893 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 16:10:29,921 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 16:10:31,382 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-03 16:10:31,394 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-03 16:10:35,253 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:10:57,701 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:11:15,588 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:11:38,071 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:11:58,100 - INFO - Р’СЂРµРјСЏ, Р·Р°С‚СЂР°С‡РµРЅРЅРѕРµ РЅР° РїРµСЂРІРёС‡РЅС‹Р№ РїРѕРёСЃРє: 0.2327725887298584
+2025-12-03 16:11:58,416 - INFO - Р’СЂРµРјСЏ, Р·Р°С‚СЂР°С‡РµРЅРЅРѕРµ РЅР° СЂРµСЂР°РЅРє: 0.31622314453125
+2025-12-03 16:11:59,946 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:12:27,913 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:15:54,935 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 16:15:54,973 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 16:15:56,725 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-03 16:15:56,739 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-03 16:16:11,974 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:16:32,566 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:16:58,081 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:17:22,085 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:17:43,461 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 16:17:43,499 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 16:17:44,987 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-03 16:17:44,999 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-03 16:17:47,820 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:18:13,753 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:18:26,997 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:18:43,380 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:19:00,481 - INFO - Р’СЂРµРјСЏ, Р·Р°С‚СЂР°С‡РµРЅРЅРѕРµ РЅР° РїРµСЂРІРёС‡РЅС‹Р№ РїРѕРёСЃРє: 0.23774194717407227
+2025-12-03 16:19:00,798 - INFO - Р’СЂРµРјСЏ, Р·Р°С‚СЂР°С‡РµРЅРЅРѕРµ РЅР° СЂРµСЂР°РЅРє: 0.31699371337890625
+2025-12-03 16:19:01,579 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:20:09,723 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 16:20:09,741 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 16:20:11,365 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-03 16:20:11,379 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-03 16:20:33,092 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:21:01,949 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:24:49,768 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 16:24:49,803 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 16:24:51,283 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-03 16:24:51,295 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-03 16:25:05,447 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 16:25:05,483 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 16:25:07,111 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-03 16:25:07,124 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-03 16:25:12,268 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:25:31,850 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:26:31,531 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 16:26:31,570 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 16:26:33,154 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-03 16:26:33,167 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-03 16:26:38,240 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:26:57,871 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:27:22,096 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:27:47,598 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:28:03,710 - INFO - Р’СЂРµРјСЏ, Р·Р°С‚СЂР°С‡РµРЅРЅРѕРµ РЅР° РїРµСЂРІРёС‡РЅС‹Р№ РїРѕРёСЃРє: 0.2200617790222168
+2025-12-03 16:28:04,022 - INFO - Р’СЂРµРјСЏ, Р·Р°С‚СЂР°С‡РµРЅРЅРѕРµ РЅР° СЂРµСЂР°РЅРє: 0.31272149085998535
+2025-12-03 16:28:04,832 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:28:27,081 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:29:21,571 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 16:29:21,605 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 16:29:23,199 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-03 16:29:23,212 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-03 16:30:48,016 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-03 16:30:48,059 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-03 16:30:49,570 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-03 16:30:49,581 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-03 16:31:03,935 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:31:34,770 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:31:55,580 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 16:32:21,681 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 10:43:52,278 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 10:43:52,411 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 10:43:53,875 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 10:45:40,882 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 10:45:41,017 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 10:45:42,483 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 10:47:40,407 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 10:47:40,541 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 10:47:42,003 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 10:47:58,082 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 10:47:58,215 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 10:47:59,697 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 10:48:04,980 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 10:48:05,113 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 10:48:06,572 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 10:48:14,746 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 10:48:14,880 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 10:48:16,349 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 10:48:35,152 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 10:48:35,285 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 10:48:36,746 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 10:48:36,758 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-08 10:49:02,617 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 10:49:02,752 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 10:49:04,228 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 10:49:04,239 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-08 10:49:35,557 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 10:49:35,690 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 10:49:37,151 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 10:49:37,162 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-08 10:49:48,517 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 10:49:48,652 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 10:49:50,127 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 10:49:50,139 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-08 10:50:37,988 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 10:50:38,121 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 10:50:39,598 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 10:51:31,675 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 10:51:31,809 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 10:51:33,275 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 10:51:33,287 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-08 10:51:56,899 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 10:51:57,032 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 10:51:58,502 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 10:51:58,514 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-08 11:19:24,318 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-12-08 11:19:40,724 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-12-08 11:19:59,370 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-12-08 11:21:31,135 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 11:21:31,268 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 11:21:32,734 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 11:21:32,746 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-08 11:21:58,369 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:21:59,731 - INFO - Р’СЂРµРјСЏ, Р·Р°С‚СЂР°С‡РµРЅРЅРѕРµ РЅР° РїРµСЂРІРёС‡РЅС‹Р№ РїРѕРёСЃРє: 0.26784682273864746
+2025-12-08 11:22:00,167 - INFO - Р’СЂРµРјСЏ, Р·Р°С‚СЂР°С‡РµРЅРЅРѕРµ РЅР° СЂРµСЂР°РЅРє: 0.43537378311157227
+2025-12-08 11:22:01,829 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:22:04,896 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:22:07,647 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:22:09,480 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:22:11,732 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:26:00,880 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:26:03,480 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:26:12,928 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:26:23,455 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:26:28,176 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:26:35,536 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:26:43,576 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:27:15,885 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 11:27:16,018 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 11:27:17,475 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 11:27:17,487 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-08 11:27:25,835 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 11:27:25,968 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 11:27:27,431 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 11:27:27,443 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-08 11:27:58,329 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:28:01,836 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:28:11,619 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:28:23,846 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:29:01,713 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 11:29:01,846 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 11:29:03,307 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 11:29:03,318 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-08 11:29:07,827 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 11:29:07,959 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 11:29:09,424 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 11:29:09,436 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-08 11:29:14,002 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 11:29:14,136 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 11:29:15,598 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 11:29:15,609 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-08 11:29:16,729 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:29:19,121 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:29:29,571 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:29:32,698 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:29:34,895 - INFO - Р’СЂРµРјСЏ, Р·Р°С‚СЂР°С‡РµРЅРЅРѕРµ РЅР° РїРµСЂРІРёС‡РЅС‹Р№ РїРѕРёСЃРє: 0.22824692726135254
+2025-12-08 11:29:35,021 - INFO - Р’СЂРµРјСЏ, Р·Р°С‚СЂР°С‡РµРЅРЅРѕРµ РЅР° СЂРµСЂР°РЅРє: 0.12561869621276855
+2025-12-08 11:29:36,405 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:29:40,766 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:29:55,517 - INFO - Р—Р°РіСЂСѓР·РєР° РІРµРєС‚РѕСЂРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+2025-12-08 11:29:55,652 - INFO - Load pretrained SentenceTransformer: /mnt/mishutqa/PycharmProjects/abitBot/app/models/deepvk/USER-bge-m3
+2025-12-08 11:29:57,121 - INFO - Р—Р°РіСЂСѓР·РєР° Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+2025-12-08 11:29:57,133 - INFO - РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РіРµРЅС‚Р°
+2025-12-08 11:30:01,974 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:30:04,248 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:30:11,679 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 11:30:21,861 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
