@@ -3,6 +3,7 @@ from app.src.sql.pipeline import sql_search
 from app.src.rag.search import retrieve_docs
 from app.src.rag.generate import generate_answer
 
+
 def get_sql_tool(db, llm):
     """
     Возвращает инструмент для SQL-поиска.
@@ -15,6 +16,7 @@ def get_sql_tool(db, llm):
         description="Поиск по структурированной информации: проходные баллы, специальности, вступительные испытания и т.д.",
         func=sql_func
     )
+
 
 def get_vector_tool(retriever_model, reranker_model, reranker_tokenizer, faiss_index, documents):
     """
