@@ -1,16 +1,18 @@
 from langchain_community.utilities import SQLDatabase
-from pathlib import Path
+from app.config.config import get_settings
+
 
 def load_sql_db() -> SQLDatabase:
     """
-    Загружает и возвращает объект SQLDatabase.
-
-    :param uri: URI базы данных (по умолчанию 'sqlite:///data/university.db').
-    :return: Объект SQLDatabase.
+    Загружает и возвращает объект SQLDatabase для PostgreSQL.
+    Настройки подключения берутся из .env файла в корне проекта.
     """
-    db_path = Path(__file__).parent.parent.parent.parent / "data" / "university.db"
-    # print(db_path)
-    # print(f"------ {Path(__file__)} ------")
-    uri = f"sqlite:///{db_path}"
-    db = SQLDatabase.from_uri(uri)
+    
+    settings = get_settings()
+
+    db = SQLDatabase.from_uri(
+        settings.db.uri,
+        sample_rows_in_table_info=3,
+        include_tables=settings.db.include_tables
+    )
     return db

@@ -7,57 +7,74 @@ import logging
 import torch
 from sentence_transformers import SentenceTransformer
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
-from app.config.config import PROJECT_DIR
-import faiss
+from app.config.config import get_settings
+from qdrant_client import QdrantClient
+from qdrant_client.http import models
+
 logger = logging.getLogger(__name__)
 
 
 def load_vector_components() -> tuple:
     """
-    Загружает векторные модели, индекс и документы.
-    Возвращает: (retriever_model, reranker_model, reranker_tokenizer, faiss_index, documents)
+    Загружает векторные модели и настраивает Qdrant клиент.
+    Возвращает: (retriever_model, reranker_model, reranker_tokenizer, qdrant_client, collection_name)
     """
-    MODELS_DIR = PROJECT_DIR / "app" / "models"
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    settings = get_settings()
+   
+    device = settings.models.device
 
-    retriever_model = SentenceTransformer(str(MODELS_DIR / "deepvk" / "USER-bge-m3"), local_files_only=True, device=device)
+    retriever_model = SentenceTransformer(
+        settings.models.full_retriver_path, 
+        local_files_only=True,
+        device=device
+    )
 
-    reranker_model = AutoModelForSequenceClassification.from_pretrained(str(MODELS_DIR / "BAAI" / "bge-reranker-v2-m3"))
+    reranker_model = AutoModelForSequenceClassification.from_pretrained(
+        settings.models.full_reranker_path
+    )
     reranker_model = reranker_model.to(device)
     reranker_model.eval()
 
-    reranker_tokenizer = AutoTokenizer.from_pretrained(str(MODELS_DIR / "BAAI" / "bge-reranker-v2-m3"))
+    reranker_tokenizer = AutoTokenizer.from_pretrained(
+        settings.models.full_reranker_path
+    )
 
-    INDEX_PATH = PROJECT_DIR / "data" / "all_faiss_index.idx"
-    faiss_index = faiss.read_index(str(INDEX_PATH))
+    # Инициализация Qdrant клиента
+    qdrant_client = QdrantClient(
+        host=settings.qdrant.host, 
+        port=settings.qdrant.port
+    )
 
-    DOCUMENTS_PATH = PROJECT_DIR / "data" / "all_documents_meta.json"
-    with open(str(DOCUMENTS_PATH), "r", encoding="utf-8") as file:
-        documents = json.load(file)
+    collection_name = settings.qdrant.collection
 
-    return retriever_model, reranker_model, reranker_tokenizer, faiss_index, documents
+    return retriever_model, reranker_model, reranker_tokenizer, qdrant_client, collection_name
 
 
-def retrieve_from_index(query, index, texts, retriever_model, top_k=10):
+def retrieve_from_index(query, qdrant_client, collection_name, retriever_model, top_k=10):
     """
     :param query:
-    :param index:
-    :param texts:
+    :param qdrant_client:
+    :param collection_name:
     :param retriever_model:
     :param top_k:
     :return:
     """
-
     start_time = time.time()
-    query_embedding = retriever_model.encode([query], convert_to_numpy=True).astype("float32")
-    distances, indices = index.search(query_embedding, top_k)
+    query_embedding = retriever_model.encode(query).tolist()
+
+    # Поиск в Qdrant
+    search_results = qdrant_client.query_points(
+        collection_name=collection_name,
+        query=query_embedding,
+        limit=top_k
+    ).points
 
     results = []
-    for score, idx in zip(distances[0], indices[0]):
+    for result in search_results:
         results.append({
-            "score": float(score),
-            "corpus_id": int(idx),
-            "candidate": texts[idx]["text"]
+            "score": float(result.score),
+            "corpus_id": result.id,
+            "candidate": result.payload.get("text", "")
         })
 
     time_to_retrieve = time.time() - start_time
@@ -66,9 +83,8 @@ def retrieve_from_index(query, index, texts, retriever_model, top_k=10):
     return results
 
 
-def rerank_documents(query, model, tokenizer, documents, top_k=3):
+# def rerank_documents(query, model, tokenizer, documents, top_k=3):
     """
-
     :param query:
     :param model:
     :param tokenizer:
@@ -111,44 +127,17 @@ def rerank_documents(query, model, tokenizer, documents, top_k=3):
     return [doc for doc, score in scored_docs[:top_k]]
 
 
-def retrieve_docs(query, retriever_model, reranker_model, reranker_tokenizer, index, all_documents, top_k=3):
+def retrieve_docs(query, retriever_model, reranker_model, reranker_tokenizer, qdrant_client, collection_name, top_k=3):
     """
     :param query:
     :param retriever_model:
     :param reranker_model:
-    :param index:
-    :param all_documents:
+    :param reranker_tokenizer:
+    :param qdrant_client:
+    :param collection_name:
     :param top_k:
     :return:
     """
-
-    initial_candidates = retrieve_from_index(query, index, all_documents, retriever_model, top_k=10)
-    return rerank_documents(query, reranker_model, reranker_tokenizer, initial_candidates, top_k=top_k)
-    # logger.info(f"{initial_candidates}")
-    # return initial_candidates
-
-
-if __name__ == "__main__":
-    query = "Какие проходные баллы на прикладную информатику?"
-    retriever_model = SentenceTransformer(r"../../models/deepvk/USER-bge-m3", local_files_only=True)
-    reranker_model = AutoModelForSequenceClassification.from_pretrained(r"../../models/BAAI/bge-reranker-v2-m3")
-    reranker_model.eval()
-    reranker_tokenizer = AutoTokenizer.from_pretrained(r"../../models/BAAI/bge-reranker-v2-m3")
-
-    PROJECT_PATH = Path(__file__).parent.parent.parent.parent
-
-    INDEX_PATH = PROJECT_PATH / "data" / "all_faiss_index.idx"
-    faiss_index = faiss.read_index(str(INDEX_PATH))
-
-    DOCUMENTS_PATH = PROJECT_PATH / "data" / "all_documents_meta.json"
-    with open(DOCUMENTS_PATH, "r", encoding="utf-8") as file:
-        docs = json.load(file)
-
-    processed_docs = retrieve_docs(
-        query,
-        retriever_model,
-        reranker_model,
-        reranker_tokenizer,
-        faiss_index,
-        docs,
-    )
+    initial_candidates = retrieve_from_index(query, qdrant_client, collection_name, retriever_model, top_k=5)
+    # return rerank_documents(query, reranker_model, reranker_tokenizer, initial_candidates, top_k=top_k)
+    return initial_candidates

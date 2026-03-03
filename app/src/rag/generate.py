@@ -1,6 +1,9 @@
 from openai import OpenAI
-from app.config.config import OPENROUTER_TOKEN, PROXY_URL, SYSTEM_PROMPT, OPENROUTER_MODEL
+from app.config.config import get_settings, SYSTEM_PROMPT_TEXT
 import httpx
+import json
+from typing import List, Dict
+import uuid
 
 
 def generate_answer(query, docs):
@@ -12,23 +15,21 @@ def generate_answer(query, docs):
     Документы:
     <documents>{docs}</documents>
     """
-
-    http_client = httpx.Client(proxy=PROXY_URL)  # Опционально
+    settings = get_settings()
 
     client = OpenAI(
-      base_url="https://openrouter.ai/api/v1",
-      api_key=f"{OPENROUTER_TOKEN}",
-      http_client=http_client  # Опционально
+        base_url=settings.vllm.base_url,
+        api_key=settings.vllm.api_key  # vLLM не требует ключа 
     )
 
     completion = client.chat.completions.create(
         extra_body={},
-        model=OPENROUTER_MODEL,
+        model=settings.vllm.model_name,
         messages=[{
             "role": "system",
             "content": [{
                 "type": "text",
-                "text": f"{SYSTEM_PROMPT}"
+                "text": f"{SYSTEM_PROMPT_TEXT}"
             }]
         }, {
             "role": "user",
