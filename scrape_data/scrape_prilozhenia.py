@@ -23,7 +23,7 @@ OPTIONAL_VI_EGE = ["русский язык", "математика", "инфо�
 
 # === ПРИЛОЖЕНИЕ №1 ===
 
-def parse_sroki_priema(url: str = PRILOZHENIA_URLS[0], output_file: str = "result_data/sroki_priema.json"):
+def parse_sroki_priema(url: str = PRILOZHENIA_URLS[0], output_file: str = "result_data/qdrant/sroki_priema.json"):
     response = requests.get(url).content
     soup = BeautifulSoup(response, "lxml")
 
@@ -80,7 +80,7 @@ def split_subjects(cell: str):
     return [normalize_subject(p) for p in parts if p.strip()]
 
 
-def parse_vi_soo_vo(url: str = PRILOZHENIA_URLS[1], output_file: str = "result_data/vi_soo_vo.csv"):
+def parse_vi_soo_vo(url: str = PRILOZHENIA_URLS[1], output_file: str = "result_data/psql/vi_soo_vo.csv"):
     response = requests.get(url).content
     soup = BeautifulSoup(response, "lxml")
     
@@ -132,7 +132,7 @@ def parse_vi_soo_vo(url: str = PRILOZHENIA_URLS[1], output_file: str = "result_d
 
 # === ПРИЛОЖЕНИЕ №3 ===
 
-def parse_vi_spo(url: str = PRILOZHENIA_URLS[2], output_file: str = "result_data/vi_spo.csv"):
+def parse_vi_spo(url: str = PRILOZHENIA_URLS[2], output_file: str = "result_data/psql/vi_spo.csv"):
     response = requests.get(url).content
     soup = BeautifulSoup(response, "lxml")
     
@@ -163,7 +163,7 @@ def parse_vi_spo(url: str = PRILOZHENIA_URLS[2], output_file: str = "result_data
 
 # === ПРИЛОЖЕНИЕ №5 ===
 
-def parse_min_max_marks(url: str = PRILOZHENIA_URLS[3], output_file: str = "result_data/min_max_marks.csv"):
+def parse_min_max_marks(url: str = PRILOZHENIA_URLS[3], output_file: str = "result_data/psql/min_max_marks.csv"):
     response = requests.get(url).content
     soup = BeautifulSoup(response, "lxml")
 
@@ -195,7 +195,7 @@ def parse_min_max_marks(url: str = PRILOZHENIA_URLS[3], output_file: str = "resu
 
 # === ПРИЛОЖЕНИЕ №9 ===
 
-def parse_achievements(url: str = PRILOZHENIA_URLS[4], output_file: str = "result_data/ind_achievements_bak_spec.json"):
+def parse_achievements(url: str = PRILOZHENIA_URLS[4], output_file: str = "result_data/qdrant/ind_achievements_bak_spec.json"):
     response = requests.get(url).content
     soup = BeautifulSoup(response, "lxml")
 
@@ -226,7 +226,7 @@ def parse_achievements(url: str = PRILOZHENIA_URLS[4], output_file: str = "resul
 
 # === ПРИЛОЖЕНИЕ №11 ===
 
-def parse_vi_mag(url: str = PRILOZHENIA_URLS[5], output_file: str = "result_data/vi_mag.csv"):
+def parse_vi_mag(url: str = PRILOZHENIA_URLS[5], output_file: str = "result_data/psql/vi_mag.csv"):
     response = requests.get(url).content
     soup = BeautifulSoup(response, "lxml")
 
@@ -323,7 +323,7 @@ def parse_vi_mag(url: str = PRILOZHENIA_URLS[5], output_file: str = "result_data
 
 # === ПРИЛОЖЕНИЕ №14 ===
 
-def parse_combination_vo_spo(url: str = PRILOZHENIA_URLS[7], output_file: str = "result_data/vo_spo_comb.csv"):
+def parse_combination_vo_spo(url: str = PRILOZHENIA_URLS[7], output_file: str = "result_data/psql/vo_spo_comb.csv"):
     response = requests.get(url).content
     soup = BeautifulSoup(response, "lxml")
 

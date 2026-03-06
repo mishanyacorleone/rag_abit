@@ -153,25 +153,25 @@ class ChatMemoryManager:
             parts.append("Начало диалога:")
             for pair in first_pairs:
                 if pair["user"]:
-                    parts.append(f"Пользователь: {pair["user"]}")
+                    parts.append(f"Пользователь: {pair['user']}")
                 if pair["assistant"]:
-                    parts.append(f"Ассистент: {pair["assistant"]}")
+                    parts.append(f"Ассистент: {pair['assistant']}")
 
             parts.append(f"\n... Пропущено {skipped} сообщений ...\n")
             parts.append(f"Недавние сообщения:")
 
             for pair in last_pairs:
                 if pair["user"]:
-                    parts.append(f"Пользователь: {pair["user"]}")
+                    parts.append(f"Пользователь: {pair['user']}")
                 if pair["assistant"]:
-                    parts.append(f"Ассистент: {pair["assistant"]}")
+                    parts.append(f"Ассистент: {pair['assistant']}")
         else:
             parts.append("История диалога:")
             for pair in first_pairs:
                 if pair["user"]:
-                    parts.append(f"Пользователь: {pair["user"]}")
+                    parts.append(f"Пользователь: {pair['user']}")
                 if pair["assistant"]:
-                    parts.append(f"Ассистент: {pair["assistant"]}")
+                    parts.append(f"Ассистент: {pair['assistant']}")
         print(parts)
         return "\n".join(parts)
     

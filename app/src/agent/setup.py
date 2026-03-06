@@ -78,7 +78,7 @@ logger = logging.getLogger(__name__)
 
 
 def initialize_agent_with_tools(
-        retriever_model, reranker_model, reranker_tokenizer,
+        retriever_model,
         qdrant_client, collection_name, db
 ):
     """
@@ -97,7 +97,7 @@ def initialize_agent_with_tools(
     tools = [
         get_sql_tool(db, llm),
         get_vector_tool(
-            retriever_model, reranker_model, reranker_tokenizer,
+            retriever_model,
             qdrant_client, collection_name
         )
     ]

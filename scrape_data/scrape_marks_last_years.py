@@ -63,7 +63,7 @@ def parse_marks(url_years: dict[str, list[str]], output_file: str):
 
 
 if __name__ == "__main__":
-    output_file = "result_data/marks_last_years.csv"
+    output_file = "result_data/psq/marks_last_years.csv"
     with open(output_file, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f, delimiter="\t")
         writer.writerow([

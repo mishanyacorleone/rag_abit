@@ -1,0 +1,113 @@
+services:
+  # ==== PostgreSQL ====
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-abit_db}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # ==== Qdrant ====
+  qdrant:
+    image: qdrant/qdrant:latest
+    restart: unless-stopped
+    volumes:
+      - qdrant_data:/qdrant/storage
+    ports:
+      - "${QDRANT_PORT:-6333}:6333"
+      - "6334:6334"
+#    healthcheck:
+#      test: ["CMD-SHELL", "cat < /dev/null > /dev/tcp/localhost/6333"]
+#      interval: 10s
+#      timeout: 5s
+#      retries: 5
+
+  # ==== VLLM (генерация) ====
+  vllm:
+    image: vllm/vllm-openai:latest
+    restart: unless-stopped
+    ipc: host
+    volumes:
+      - ./app/models:/models:ro
+    ports:
+      - "8000:8000"
+    environment:
+      - VLLM_LOGGING_LEVEL=INFO
+    command: >
+      --model /models/${VLLM_MODEL_NAME:-Qwen3-30B-A3B-Instruct-2507-AWQ-4bit}
+      --served-model-name qwen3-abit
+      --max-model-len ${VLLM_MAX_MODEL_LEN:-8192}
+      --gpu-memory-utilization ${VLLM_GPU_MEMORY_UTILIZATION:-0.85}
+      --host 0.0.0.0
+      --port 8000
+      --dtype bfloat16
+      --enable-auto-tool-choice
+      --tool-call-parser hermes
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+#    healthcheck:
+#      test: ["CMD-SHELL", "cat < /dev/null > /dev/tcp/localhost/8000"]
+#      interval: 15s
+#      timeout: 10s
+#      retries: 20
+#      start_period: 120s
+
+  # ==== Приложение ====
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      - postgres
+      - qdrant
+#      postgres:
+#        condition: service_healthy
+#      qdrant:
+#        condition: service_healthy
+#      vllm:
+#        condition: service_healthy
+    environment:
+      # PostgreSQL
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_USER=${POSTGRES_USER:-postgres}
+      - DB_PASSWORD=${POSTGRES_PASSWORD:-postgres}
+      - DB_NAME=${POSTGRES_DB:-abit_db}
+      # Qdrant
+      - QDRANT_HOST=qdrant
+      - QDRANT_PORT=6333
+      - QDRANT_COLLECTION=${QDRANT_COLLECTION:-documents}
+      # vLLM
+      - VLLM_BASE_URL=http://vllm:8000/v1
+      # Модели (внутри контейнера)
+      - MODEL_RETRIEVER_PATH=/app/models/deepvk/USER-bge-m3
+      - MODEL_DEVICE=${DEVICE:-cpu}
+    volumes:
+      - ./app:/app/app
+      - ./app/models:/app/models:ro
+      - ./data:/app/data
+      - ./scripts:/app/scripts:ro
+    ports:
+      - "${APP_PORT:-8080}:8080"
+
+volumes:
+  postgres_data:
+    name: abit_postgres_data
+  qdrant_data:
+    name: abit_qdrant_data

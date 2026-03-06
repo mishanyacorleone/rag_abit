@@ -2,7 +2,6 @@ import asyncio
 import logging
 from contextlib import asynccontextmanager
 
-import faiss
 import json
 import uuid
 from typing import List, Dict, Optional
@@ -89,7 +88,7 @@ def append_rag_data_to_json(query: str, response: str, retrieved_context: List[D
 async def lifespan(app: FastAPI):
     global agent
     logger.info("Загрузка векторных компонентов")
-    retriever_model, reranker_model, reranker_tokenizer, qdrant_client, collection_name = load_vector_components()
+    retriever_model, qdrant_client, collection_name = load_vector_components()
 
     logger.info("Загрузка базы данных")
     db = load_sql_db()
@@ -99,7 +98,7 @@ async def lifespan(app: FastAPI):
 
     logger.info("Инициализация агента")
     agent = initialize_agent_with_tools(
-        retriever_model, reranker_model, reranker_tokenizer, qdrant_client, collection_name, db
+        retriever_model, qdrant_client, collection_name, db
     )
 
     yield

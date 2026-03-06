@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from app.api import api
 from app.api import admin
 from app.config.config import get_settings
+from app.src.concurrency import ConcurrencyLimitMiddleware
 
 settings = get_settings()
 settings.print_config()
@@ -13,6 +14,13 @@ app = FastAPI(
     version="1.0", 
     description="API для ответов на вопросы абитуриентов + управление данными",
     lifespan=api.lifespan
+)
+
+app.add_middleware(
+    ConcurrencyLimitMiddleware,
+    max_concurrent=8,
+    queue_timeout=120.0,
+    max_queue_size=50
 )
 
 app.include_router(api.router, prefix="/api")

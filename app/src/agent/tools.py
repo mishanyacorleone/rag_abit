@@ -13,40 +13,17 @@ from app.src.agent.context_buffer import set_retrieved_context
 logger = logging.getLogger(__name__)
 
 
-def get_vector_tool(retriever_model, reranker_model, reranker_tokenizer,
+def get_vector_tool(retriever_model,
                     qdrant_client, collection_name):
     """
     Возвращает инструмент для векторного поиска
     Возвращает найденные документы, а не готовый ответ
     """
 
-    # def vector_func(query: str) -> str:
-    #     results = retrieve_docs(
-    #         query, retriever_model, reranker_model,
-    #         reranker_tokenizer, qdrant_client, collection_name
-    #     )
-
-    #     if not results:
-    #         return "По данному запросу документы не найдены."
-
-    #     docs = "\n".join([x["candidate"] for x in results])
-    #     answer = generate_answer(query, docs)
-
-    #     # Контекст для RAGChecker
-    #     retrieved_context = []
-    #     for doc in results:
-    #         retrieved_context.append({
-    #             "doc_id": f"vector_{uuid.uuid4()}",
-    #             "text": doc["candidate"]
-    #         })
-    #     set_retrieved_context(retrieved_context)
-
-    #     return answer
-
     def vector_func(query: str) -> str:
         results = retrieve_docs(
-            query, retriever_model, reranker_model,
-            reranker_tokenizer, qdrant_client, collection_name
+            query, retriever_model,
+            qdrant_client, collection_name
         )
 
         if not results:
@@ -100,7 +77,7 @@ def get_sql_tool(db, llm):
         result = sql_query_only(query, db, llm)
         
         if not result["success"]:
-            return f"Ошибка SQL-запроса: {result["error"]}"
+            return f"Ошибка SQL-запроса: {result['error']}"
         
         retrieved_context = []
         for row in result["data"]:
@@ -115,7 +92,7 @@ def get_sql_tool(db, llm):
         if not result["data"]:
             return (
                 f"SQL-запрос выполнен, но данных не найдено.\n"
-                f"Запрос: {result["query"]}"
+                f"Запрос: {result['query']}"
             )
         
         rows_text = []
@@ -124,7 +101,7 @@ def get_sql_tool(db, llm):
             rows_text.append(row_text)
         
         return (
-            f"Найдено {len(result["data"])} результатов: \n\n"
+            f"Найдено {len(result['data'])} результатов: \n\n"
             + "\n".join(rows_text)
         )
     

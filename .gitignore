@@ -31,3 +31,7 @@ app/models/
 # ======================
 .idea/
 .vscode/
+
+# ======================
+qdrant_test/
+ragchecker/

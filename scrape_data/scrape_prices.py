@@ -36,7 +36,7 @@ def parse_combination_vo_spo(url: str, output_file: str):
 
 
 if __name__ == "__main__":
-    output_file = "result_data/prices.csv"
+    output_file = "result_data/psql/prices.csv"
     with open(output_file, "w", encoding="utf-8") as f:
         writer = csv.writer(f, delimiter="\t")
         writer.writerow([

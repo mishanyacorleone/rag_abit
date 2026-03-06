@@ -44,9 +44,9 @@ class VLLMSettings(BaseSettings):
     Настройки vLLM сервера
     """
 
-    base_url: str = ""
-    model_name: str = ""
-    api_key: str = ""
+    base_url: str = "http://localhost:2222/v1"
+    model_name: str = "qwen3-abit"
+    api_key: str = "EMPTY"
 
     model_config = SettingsConfigDict(
         env_prefix="VLLM_",
@@ -60,10 +60,10 @@ class QdrantSettings(BaseSettings):
     """
     Настройки Qdrant
     """
-    host: str = ""
+    host: str = "localhost"
     port: int = 6333
-    collection: str = ""
-    data_path: str = ""
+    collection: str = "documents"
+    data_path: str = "data/qdrant_meta.json"
 
     @property
     def full_data_path(self) -> Path:
@@ -81,11 +81,11 @@ class DatabaseSettings(BaseSettings):
     """
     Настройки PostgreSQL
     """
-    host: str = ""
+    host: str = "localhost"
     port: int = 5432
-    name: str = ""
-    user: str = ""
-    password: str = ""
+    name: str = "abit_db"
+    user: str = "postgres"
+    password: str = "qwerty123"
 
     @property
     def uri(self) -> str:
@@ -112,9 +112,9 @@ class ModelSettings(BaseSettings):
     Настройки локальных моделей
     """
 
-    retriever_path: str = ""
-    reranker_path: str = ""
-    device: str = ""
+    retriever_path: str = "app/models/USER-bge-m3"
+    reranker_path: str = "app/models/bge-reranker-v2-m3"
+    device: str = "cpu"
     
     @property
     def full_retriver_path(self) -> str:
@@ -126,7 +126,6 @@ class ModelSettings(BaseSettings):
     
     model_config = SettingsConfigDict(
         env_prefix="MODEL_",
-        env_file=str(PROJECT_DIR / ".env"),
         env_file_encoding="utf-8",
         extra="ignore"
     )
@@ -155,10 +154,10 @@ class AppSettings(BaseSettings):
     Общие настройки приложения
     """
 
-    host: str = ""
-    port: int = ""
+    host: str = "0.0.0.0"
+    port: int = "8081"
     debug: bool = True
-    log_level: str = ""
+    log_level: str = "INFO"
 
     model_config = SettingsConfigDict(
         env_prefix="APP_",
@@ -209,5 +208,6 @@ def get_settings() -> Settings:
 SYSTEM_PROMPT_TEXT = load_prompt("system_prompt.txt")
 SQL2TEXT_PROMPT = load_prompt("sql2text_prompt.txt")
 CUSTOM_AGENT_PROMPT = load_prompt("custom_agent_prompt.txt")
+TABLE_SELECTOR_PROMPT = load_prompt("table_selector_prompt.txt")
 
 CUSTOM_AGENT_PROMPT = PromptTemplate.from_template(CUSTOM_AGENT_PROMPT)

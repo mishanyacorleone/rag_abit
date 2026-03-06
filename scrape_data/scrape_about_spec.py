@@ -12,7 +12,10 @@ SPEC_INFO = "https://abit.magtu.ru/?bak&spec&mag"
 
 
 def parse_about_spec(url=SPEC_INFO):
-    response = requests.get(url).content
+    response = requests.get(url).text
+    with open("response.html", "w", encoding="utf-8") as file:
+        file.write(response)
+
     soup = BeautifulSoup(response, 'lxml')
 
     json_specs = json.loads(soup.find('div', class_='napravleniya').find('div', class_='all_np').find('div', class_='json').text)
@@ -35,8 +38,8 @@ def parse_about_spec(url=SPEC_INFO):
                 month = str(data.get('Months')).lower().strip()
     
                 csv_rows.append([code, title, lvl, link, formEd, budg, comm, years, month])
-
-    with open('result_data/spec_info.csv', 'w', newline='', encoding='utf-8') as file:
+                print([code, title, lvl, link, formEd, budg, comm, years, month])
+    with open('result_data/psql/spec_info.csv', 'w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file, delimiter="\t")
         writer.writerow(headers)
         writer.writerows(csv_rows)

@@ -69,7 +69,7 @@ file_name = "initial_data/pravila_priema.pdf"
 try:
     parsed_data = parse_structure(file_name)
 
-    with open("result_data/pravila_priema.json", "w", encoding="utf-8") as file:
+    with open("result_data/qdrant/pravila_priema.json", "w", encoding="utf-8") as file:
         json.dump(parsed_data, file, ensure_ascii=False, indent=2)
 
     for chapter, items in parsed_data.items():
